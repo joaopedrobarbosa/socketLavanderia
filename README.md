@@ -1,1 +1,1 @@
-# socketLavanderia
+# socketLoja
