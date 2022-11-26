@@ -1,0 +1,37 @@
+Para utilizar o sistema, abra dois terminais no diretório que contem o sistema.
+    Em um deles utilize o seguinte comando "python servidor.py" ( para Windows 11 ) ou "python3 servidor.py" ( para Ubuntu 20.04 ) 
+    para rodar o servidor.
+    No outro utilize o seguinte comando "python cliente.py" ( para Windows 11 ) ou "python3 cliente.py" ( para Ubuntu 20.04 )  
+    para rodar o cliente.
+
+Agora, com o sistema rodando, inicializamos dados, para testar sem a necessidade de adicionar vários dados. Foram adicionados 3 vendedores, 3 lojas, com valores de vendas distintos e datas variadas. Recomendamos os seguintes casos de teste:
+
+    Total de vendas de um vendedor:
+        Total Vendas "Alberto" | Retorno Esperado = 2800.0
+        Total Vendas "Marcelo" | Retorno Esperado = 2100.0
+        Total Vendas "Danilo" | Retorno Esperado = 2700.0
+
+    Total de vendas de uma oja:
+        Total Vendas ALoja | Retorno Esperado = 3700.0
+        Total Vendas ALoja | Retorno Esperado = 2400.0
+        Total Vendas ALoja | Retorno Esperado = 1600.0
+
+    Total de vendas da rede de lojas em um periodo:
+        Total de Vendas de uma rede de loja no periodo de 01/01/2021 ate 31/12/2021 | Retorno Esperado = 1400.0
+        Total de Vendas de uma rede de loja no periodo de 01/01/2022 ate 31/12/2022 | Retorno Esperado = 6300.0
+        Total de Vendas de uma rede de loja no periodo de 01/07/2022 ate 31/12/2022 | Retorno Esperado = 3500.0
+
+    Melhor Loja | Retorno Esperado = "LojaA"
+
+    Melhor Vendedor | Retorno Esperado = "Alberto"
+
+    * Segue as datas e seus valores de venda para facilitar testes variados de periodo:
+        'dataVenda': '10/11/2022' - 'valorVenda': '1000'
+        'dataVenda': '22/03/2022' - 'valorVenda': '1500'
+        'dataVenda': '30/12/2021' - 'valorVenda': '300'
+        'dataVenda': '13/05/2021' - 'valorVenda': '700'
+        'dataVenda': '07/12/2021' - 'valorVenda': '400'
+        'dataVenda': '21/02/2022' - 'valorVenda': '1000'
+        'dataVenda': '09/08/2022' - 'valorVenda': '2000'
+        'dataVenda': '14/11/2022' - 'valorVenda': '500'
+        'dataVenda': '19/03/2022' - 'valorVenda': '300'
